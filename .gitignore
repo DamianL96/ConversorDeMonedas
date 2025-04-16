@@ -1,0 +1,19 @@
+cat > .gitignore << EOL
+# IntelliJ
+.idea/
+*.iml
+*.iws
+out/
+target/
+
+# Compiled files
+*.class
+
+# Package files
+*.jar
+*.war
+*.ear
+
+# Logs
+*.log
+EOL
