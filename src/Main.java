@@ -1,9 +1,11 @@
+import com.conversor.connection.Conexion;
+
 public class Main {
   public static void main(String[] args) {
 
-    System.out.println("Hello, World!");
-    System.out.println("Hola mundo");
-    System.out.println("ola mundo 2");
 
+    Conexion coneccion = new Conexion("ARS");
+    String json = coneccion.conectar();
+    System.out.println(json);
   }
 }
