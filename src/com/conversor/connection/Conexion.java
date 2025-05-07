@@ -9,8 +9,8 @@ public class Conexion {
 
   private String url;
 
-  public Conexion(String divisa){
-    this.url = "https://v6.exchangerate-api.com/v6/5d582a3e90a3fe9f06ff09fa/latest/"+divisa;
+  public Conexion(String base, String target){
+    this.url = "https://v6.exchangerate-api.com/v6/5d582a3e90a3fe9f06ff09fa/pair/"+base+"/"+target;
   }
 
   public String conectar (){
@@ -33,5 +33,9 @@ public class Conexion {
     }
 
     return json;
+  }
+
+  public String getUrl() {
+    return url;
   }
 }

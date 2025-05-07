@@ -1,5 +1,6 @@
 package com.conversor.connection;
 
+import com.conversor.records.Rate;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 
@@ -11,7 +12,9 @@ public class AdaptaJson {
             .create();
   }
 
-
+  public Rate fromJson (String json){
+    return this.gson.fromJson(json, Rate.class);
+  }
 
 
 }
