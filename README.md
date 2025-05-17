@@ -22,6 +22,7 @@
 <ul>
   <li>Java</li>
   <li>Gson</li>
+  <li>ExchangeRate-API</li>
 </ul>
 
 <h2> Desarrolladores 👤 </h2>
