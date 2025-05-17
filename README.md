@@ -1,6 +1,6 @@
 Titulo e imagen de portada
 <h1 align="center"> #Conversor de Monedas </h1>
-![Portada](https://github.com/user-attachments/assets/30e26741-3dac-4c75-a80b-b03af9bcc9a4.jpeg)
+![Portada](https://github.com/user-attachments/assets/30e26741-3dac-4c75-a80b-b03af9bcc9a4)
 
 Indice
 
