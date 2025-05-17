@@ -3,9 +3,9 @@
 
 <h2> Descripción 🔍</h2>
 <p>Este es un proyecto sencillo en Java que permite convertir montos entre diferentes monedas utilizando tasas de cambio predefinidas.<br>
-  La aplicación ofrece una interfaz amigable para que el usuario seleccione las monedas de origen y destino,<br>
-  ingrese el monto a convertir y obtenga el resultado al instante. Además, guarda un historial de las últimas conversiones en un archivo local,<br>
-  permitiendo consultar las operaciones realizadas previamente.Ideal para aprender conceptos básicos de Java como entrada/salida de datos,<br>
+  La aplicación ofrece una interfaz amigable para que el usuario seleccione las monedas de origen y destino,
+  ingrese el monto a convertir y obtenga el resultado al instante.<br> Además, guarda un historial de las últimas conversiones en un archivo local,
+  permitiendo consultar las operaciones realizadas previamente.Ideal para aprender conceptos básicos de Java como entrada/salida de datos,
   manejo de archivos y lógica de conversión.
 </p>
 
